@@ -1,0 +1,163 @@
+body {
+    overflow: hidden;
+}
+
+#welcome {
+    color: rgb(247, 202, 147);
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
+
+/* SERVING OPTIONS */
+
+#serving {
+    color: rgb(247, 202, 147);
+    text-align: center;
+    margin: 0 0 15px 0;
+    background: #1A1110;
+    
+}
+
+
+/* RIGHT SIDE */
+
+.right-side {
+    height: calc(100vh-100px);
+    width: 50%;
+    position: fixed;
+    right: 0;
+    top: 100px;
+}
+
+
+/* TEA PRICE LIST - ONLY THIS SCROLLS */
+
+.tea-prices {
+    width: 500px;
+    margin: 0px 80px 0px auto;
+    height: calc(100vh - 180px);
+    overflow-y: auto;
+}
+
+
+/* Scrollbar */
+
+.tea-prices::-webkit-scrollbar {
+    width: 6px;
+}
+
+.tea-prices::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+
+.tea-prices::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+/* TEA ITEMS */
+
+.tea-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 15px 20px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+.tea-item span {
+    color: white;
+    font-size: 18px;
+}
+
+.tea-item input {
+    width: 80px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/* SAVE BUTTON */
+
+#savePrices {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 25px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#savePrices:hover {
+    background: white;
+    color: #1A1110;
+}
+
+
+/* MAIN CONTAINER */
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    margin: 50px auto;
+}
+
+
+/* ADD NEW ITEM */
+
+.add-item {
+    width: 400px;
+    padding: 25px;
+    border: 1px solid white;
+    border-radius: 15px;
+    position: fixed;
+    top: 170px;
+    left: 5%;
+}
+
+.add-item h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.add-item input {
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid white;
+    font-size: 15px;
+}
+
+
+/* ADD ITEM BUTTON */
+
+#addItem {
+    display: block;
+    margin: 25px auto 5px;
+    padding: 12px 25px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#addItem:hover {
+    background: white;
+    color: #1A1110;
+}

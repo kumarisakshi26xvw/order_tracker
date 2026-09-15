@@ -1,0 +1,102 @@
+h1 {
+    color: #b6944c;;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+hr{
+    width: 90%;
+    border: none;
+    border-top: 1px solid #d6c7a1;
+    
+}
+p{
+    color: #f1be4f;
+    text-align: center;
+}
+h2{
+    color: #f3c25a;
+}
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+.background img{
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.11;
+}
+.tea-card{
+    width: 220px;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid #997d40;
+    background: #221515;
+
+}
+.tea-card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.tea-container{
+    margin-top: 90px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.buttons {
+    display: flex;
+    
+    justify-content: center;
+    
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: 1px solid #b3975c;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #d4c8b0;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.buttons button:hover {
+    background-color: #D6B56E;
+    color: #1F211E;
+    transform: translateY(-4px);
+}
+
+/* When clicked */
+.buttons button:active {
+    transform: translateY(1px);
+}
+.tea-card:hover {
+    background-color: #D6B56E;
+    color: #1F211E;
+    transform: translateY(-4px);
+}
+
+/* When clicked */
+.tea-card.selected {
+    background-color: #D6B56E;
+    color: #1F211E;
+    transform: translate(-4px);
+}
+.tea-card.selected h2, .tea-card.selected p{
+    color: #1F211E;
+}

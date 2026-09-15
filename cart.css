@@ -1,0 +1,27 @@
+h1{
+    color: #b6944c;
+    text-align: center;
+}
+button{
+    background:transparent;
+    color: bisque;
+}
+.cart-item{
+    border: 2px solid #8b5e3c;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
+    width: 250px;
+}
+#cart{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cart-item {
+    border: 2px solid #8b5e3c;
+    border-radius: 15px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}

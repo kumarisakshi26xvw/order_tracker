@@ -1,0 +1,54 @@
+
+h1{
+    text-align: center;
+    color: #bd9f60;
+    font-family:'Playfair Display', serif ;
+    font-weight: 600;
+    font-size: 45px;
+}
+p{
+    color:#d6d2c8;
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 120px;
+}
+.buttons {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+    margin-top: 50px;
+}
+
+.buttons button {
+    padding: 30px 50px;
+    border: 1px solid #c5a767;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #dbd7ce;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* When mouse goes over */
+.buttons button:hover {
+    background-color: #D6B56E;
+    color: #1F211E;
+    transform: translateY(-4px);
+}
+
+/* When clicked */
+.buttons button:active {
+    transform: translateY(1px);
+}
+.bottom-image {
+    position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    
+    height:180px;
+    margin-top: 50px;
+}
