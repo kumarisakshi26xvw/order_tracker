@@ -1,14 +1,15 @@
 h1{
     text-align: center;
-    color: #b6944c;
-    font-family:'Playfair Display', serif ;
+    color: #CD9E4C;
+    font-family:'Lora', serif ;
     font-weight: 600;
     font-size: 45px;
 }
 p{
-    color: #9e8857;
+    color: #442C1B;
     text-align:center;
     font-size: 20px;
+    font-family: 'Lora', sans-serif;
     
 }
 .inputcontainer{
@@ -17,23 +18,39 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 35px;
+    
 
 }
 #restaurantName ,#restaurantEmail {
-    background-color: #2A2D28;
-    color: white;
-    border: 1px solid #777;
+    border: 1.5px solid #6B2717;
     border-radius: 10px;
     padding: 20px 25px;
     width: 300px;
     outline: none;
-}
+    background-color: #BCAB79;
 
-#restaurantSearch::placeholder {
-    color: #aaa;
 }
-
 #restaurantSearch:focus {
     border-color: #D6A85F;
+}
+#restaurant-login{
+    background-color: #CC9E4C;
+    color: #442C1B;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+#restaurant-login:hover {
+    background-color: #6B2717;
+    color: #E0D0B6;
+}
+input::placeholder{
+    color: #f8f4ec;
+    
 }
