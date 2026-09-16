@@ -3,19 +3,26 @@ body {
 }
 
 #welcome {
-    color: rgb(247, 202, 147);
+    font-weight: 750;
     text-align: center;
     margin: 20px 0 30px;
+    font-family: 'Lora', sans-serif;
+    color: #432818;
 }
-
+hr{
+    width: 90%;
+    border: none;
+    border-top: 1px solid #9D9167;
+}
 
 /* SERVING OPTIONS */
 
 #serving {
-    color: rgb(247, 202, 147);
+    color:#432818;
+    font-size: 25px;
     text-align: center;
-    margin: 0 0 15px 0;
-    background: #1A1110;
+    margin: 15px 0 15px 0;
+    background: transparent;
     
 }
 
@@ -36,6 +43,7 @@ body {
 .tea-prices {
     width: 500px;
     margin: 0px 80px 0px auto;
+    border-color: #432818;
     height: calc(100vh - 180px);
     overflow-y: auto;
 }
@@ -62,14 +70,21 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0;
+    margin: 20px 0 ;
     padding: 15px 20px;
-    border: 1px solid white;
+    border: 1px solid #432818;
     border-radius: 12px;
+    background-color: #ffe27bee;
+    
+
+    
+
 }
 
 .tea-item span {
-    color: white;
+    color: #ce9025;
+    font-weight: 700;
+    font-family: 'Lora', serif;
     font-size: 18px;
 }
 
@@ -77,7 +92,7 @@ body {
     width: 80px;
     padding: 8px;
     border-radius: 8px;
-    border: 1px solid white;
+    border: 1px solid #442c1b;
     text-align: center;
     font-size: 16px;
 }
@@ -89,9 +104,9 @@ body {
     display: block;
     margin: 30px auto;
     padding: 12px 25px;
-    border: 1px solid white;
+    border: 1px solid #432818;
     border-radius: 20px;
-    background: transparent;
+    background: #CC9E4C;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -111,6 +126,7 @@ body {
     align-items: flex-start;
     width: 90%;
     margin: 50px auto;
+    
 }
 
 
@@ -119,15 +135,16 @@ body {
 .add-item {
     width: 400px;
     padding: 25px;
-    border: 1px solid white;
+    border: 1px solid #442c1b;
     border-radius: 15px;
     position: fixed;
     top: 170px;
     left: 5%;
+    background-color: #ffe27bee;
 }
 
 .add-item h2 {
-    color: white;
+    color: #d69627;
     text-align: center;
     margin-bottom: 25px;
 }
@@ -151,7 +168,7 @@ body {
     padding: 12px 25px;
     border: 1px solid white;
     border-radius: 20px;
-    background: transparent;
+    background: #CC9E4C;
     color: white;
     font-size: 16px;
     cursor: pointer;
